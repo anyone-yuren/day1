@@ -1,0 +1,10 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'app1'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath E:\learn\lerna\day1
+3 warn ENOREMOTE No git remote found, skipping repository property
+4 error
