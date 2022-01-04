@@ -1,10 +1,10 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js',
-0 silly argv   name: 'app1'
-0 silly argv }
-1 notice cli v4.0.0
-2 verbose rootPath E:\learn\lerna\day1
-3 warn ENOREMOTE No git remote found, skipping repository property
-4 error
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/niyg/day1.git/': Failed to connect to github.com port 443: Timed out
+15 error error: Could not fetch origin
+15 error Fetching origin
+15 error     at makeError (C:\Users\G\AppData\Roaming\nvm\v12.20.1\node_modules\lerna\node_modules\execa\lib\error.js:60:11)
+15 error     at Function.module.exports.sync (C:\Users\G\AppData\Roaming\nvm\v12.20.1\node_modules\lerna\node_modules\execa\index.js:194:17)
+15 error     at Object.execSync (C:\Users\G\AppData\Roaming\nvm\v12.20.1\node_modules\lerna\node_modules\@lerna\child-process\index.js:39:16)
+15 error     at updateRemote (C:\Users\G\AppData\Roaming\nvm\v12.20.1\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (C:\Users\G\AppData\Roaming\nvm\v12.20.1\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (C:\Users\G\AppData\Roaming\nvm\v12.20.1\node_modules\lerna\node_modules\@lerna\version\index.js:153:9)
